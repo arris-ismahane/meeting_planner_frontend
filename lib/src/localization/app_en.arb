@@ -1,0 +1,75 @@
+{
+  "appName": "Meeting Planner",
+  "homePage": "Home Page",
+  "ok": "Ok",
+  "pleaseConfirm": " Please confirm",
+  "confirmDelete": "Do you want to delete this item ?",
+  "no": "No",
+  "cancel": "Cancel",
+  "login": "Login",
+  "logout": "Logout",
+  "confirm": "Confirm",
+  "confirmLogout": "Are you sure you want to log out?",
+  "yes": "Yes",
+  "password": "Password",
+  "username": "Username",
+  "requiredField": "Required field",
+  "@minValue": {
+    "placeholders": {
+      "value": {
+        "example": "10",
+        "description": "Min value"
+      }
+    }
+  },
+  "minValue": "Value must be greater than or equal {value}",
+  "@maxValue": {
+    "placeholders": {
+      "value": {
+        "example": "10",
+        "description": "Min value"
+      }
+    }
+  },
+  "maxValue": "Value must be lower than or equal {value}",
+  "invalidValue": "Invalid value",
+  "select": "Select",
+  "addRoom": "Add a room",
+  "name": "Name",
+  "capacity": "Capacity",
+  "save": "Save",
+  "savedSuccessfully": "Saved successfully",
+  "rooms": "Rooms",
+  "initialEquipments": "Initial equipments",
+  "callDevice": "Call device",
+  "screen": "Screen",
+  "board": "Board",
+  "webcam": "Webcam",
+  "edit": "Edit",
+  "delete": "Delete",
+  "addMeetingRequirement": "Add a meeting requirement",
+  "videoconferences": "Videoconferences",
+  "sharingSessions": "Sharing and case study sessions",
+  "simpleMeetings": "Simple meetings",
+  "pairedMeetings": "Paired meetings",
+  "equipments": "Equipments",
+  "type": "Type",
+  "meetingRequirements": "Meeting requirements",
+  "addSharedEquipment": "Add a shared equipment",
+  "sharedEquipments": "Shared equipments",
+  "equipment": "Equipment",
+  "totalQuantity": "Total quantity",
+  "meeting": "Meeting",
+  "nbParticipants": "Participants number",
+  "date": "Date",
+  "startTime": "Start time",
+  "endTime": "End time",
+  "bookings": "Bookings",
+  "addBooking": "Add booking",
+  "na": "N/A",
+  "changeLanguage": "Change language",
+  "profile": "Profile",
+  "noDataFound": "No Data Found",
+  "addEquipement": "Add equipement",
+  "refresh": "Refresh"
+}

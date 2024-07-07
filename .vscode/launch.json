@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Meeting Planner web",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--web-browser-flag=--disable-web-security",
+                "--dart-define=URL_BASE=http://localhost:8080/"
+            ]
+        },
+        {
+            "name": "Meeting Planner android",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=URL_BASE=http://10.0.2.2:8080/"
+            ]
+        },
+    ]
+}

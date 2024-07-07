@@ -1,0 +1,75 @@
+{
+  "appName": "Meeting Planner",
+  "homePage": "Page d'accueil",
+  "ok": "Ok",
+  "pleaseConfirm": " Veuillez confirmer",
+  "confirmDelete": "Voulez-vous supprimer cet élément ?",
+  "no": "Non",
+  "cancel": "Annuler",
+  "login": "Connexion",
+  "logout": "Déconnexion",
+  "confirm": "Confirmer",
+  "confirmLogout": "Êtes-vous sûr de vouloir vous déconnecter ?",
+  "yes": "Oui",
+  "password": "Mot de passe",
+  "username": "Nom d'utilisateur",
+  "requiredField": "Champ obligatoire",
+  "@minValue": {
+    "placeholders": {
+      "value": {
+        "example": "10",
+        "description": "Min value"
+      }
+    }
+  },
+  "minValue": "La valeur doit être inférieure ou égale à {value}",
+  "@maxValue": {
+    "placeholders": {
+      "value": {
+        "example": "10",
+        "description": "Min value"
+      }
+    }
+  },
+  "maxValue": "La valeur doit être supérieure ou égale à {value}",
+  "invalidValue": "Valeur invalide",
+  "select": "Sélectionner",
+  "addRoom": "Ajouter une salle",
+  "name": "Nom",
+  "capacity": "Capacité",
+  "save": "Enregistrer",
+  "savedSuccessfully": "Enregistré avec succès",
+  "rooms": "Salles",
+  "initialEquipments": "Équipements initiaux",
+  "callDevice": "Pieuvre",
+  "screen": "Écran",
+  "board": "Tableau",
+  "webcam": "Webcam",
+  "edit": "Modifier",
+  "delete": "Supprimer",
+  "addMeetingRequirement": "Ajouter un type de réunion",
+  "videoconferences": "Visioconférences (VC)",
+  "sharingSessions": "Séances de partage et études de cas (SPEC)",
+  "simpleMeetings": "Réunions simples (RS)",
+  "pairedMeetings": "Réunions couplées (RC)",
+  "equipments": "Équipements",
+  "type": "Type",
+  "meetingRequirements": "Types de réunion",
+  "addSharedEquipment": "Add un équipement partagé",
+  "sharedEquipments": "Équipement partagés",
+  "equipment": "Équipement",
+  "totalQuantity": "Quantité totale",
+  "meeting": "Réunion",
+  "nbParticipants": "Nombre de participants",
+  "date": "Date",
+  "startTime": "Heure de début",
+  "endTime": "Heure de fin",
+  "bookings": "Réservations",
+  "addBooking": "Ajouter une réservation",
+  "na": "N/A",
+  "changeLanguage": "Changer de langue",
+  "profile": "Profil",
+  "addEquipement": "Ajouter un équipement",
+  "noDataFound": "Aucune donnée disponible",
+  "refresh": "Actualiser"
+}
