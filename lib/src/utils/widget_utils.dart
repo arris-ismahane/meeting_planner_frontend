@@ -151,6 +151,7 @@ Future<DateTime?> selectDate(
   required DateTime? initialValue,
   DateTime? lastDate,
   DateTime? firstDate,
+  List<int> weekend = const <int>[6, 7],
 }) {
   return showDatePicker(
     context: context,
@@ -158,7 +159,8 @@ Future<DateTime?> selectDate(
     firstDate: firstDate ?? DateTime.now().add(Duration(days: -365 * 150)),
     lastDate: lastDate ?? DateTime.now().add(Duration(days: 365 * 150)),
     selectableDayPredicate: (DateTime date) {
-      return disableWeekend ? date.weekday != 6 && date.weekday != 7 : true;
+      weekend.contains(disableWeekend);
+      return disableWeekend ? !weekend.contains(date.weekday) : true;
     },
   ).asStream().map(
     (event) {
