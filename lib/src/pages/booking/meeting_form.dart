@@ -117,7 +117,9 @@ class _MeetingFromState extends BasicState<MeetingFrom> with UtilsMixin {
                 InkWell(
                   onTap: () async {
                     var date = await selectDate(context,
-                        firstDate: dateStream.valueOrNull,
+                        disableWeekend: true,
+                        weekend: weekend,
+                        firstDate: DateTime.now(),
                         initialValue: dateStream.valueOrNull);
                     if (date != null) {
                       dateStream.add(date);
